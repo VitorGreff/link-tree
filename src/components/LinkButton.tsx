@@ -7,10 +7,6 @@ interface linkProps {
 
 export default function LinkButton(props: linkProps) {
     return (
-        props.url ? (
-            <a href={props.url} className={styles.linkButton} target="_blank" rel="noopener noreferrer">{props.content}</a>
-        ) : (
-            <span className={styles.linkButton}>{props.content}</span>
-        )
+        <a href={props.url} className={styles.link_button} target="_blank" rel="noopener noreferrer">{props.content}</a>
     )
 }
