@@ -1,15 +1,10 @@
-import Profile from './components/Profile.tsx'
+import Layout from "./components/Layout"
+
 
 function App() {
   return (
-    <div style={{
-      display: "flex",
-      flexDirection: "column",
-      justifyContent: "center",
-      alignItems: "center",
-      height: "100vh"
-    }}>
-      <Profile></Profile>
+    <div className={`bg-gray-100 h-screen flex flex-col justify-center items-center`}>
+      <Layout/>
     </div>
   )
 }
