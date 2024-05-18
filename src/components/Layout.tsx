@@ -14,11 +14,9 @@ export default function Layout() {
   }
 
   return (
-    <div className={`flex flex-col justify-center items-center min-h-[800px] min-w-[500px] border-2 border-black rounded-xl gap-4 p-5 bg-gray-100`}>
+    <div className={`flex flex-col justify-center items-center min-h-[800px] min-w-[490px] border-2 border-gray-500 rounded-xl gap-4 p-5 bg-gray-100`}>
 
-      <div className="flex justify-end w-full mr-14">
-        <Icon theme={theme} changeTheme={changeTheme} />
-      </div>
+      <Icon theme={theme} changeTheme={changeTheme} />
       <Photo />
 
       <div className={"flex flex-col justify-center items-center gap-2 mb-2 mt-2"}>
