@@ -4,15 +4,14 @@ import Text from "./Text";
 
 export default function Layout() {
   return (
-    <div className={`flex flex-col justify-center items-center min-h-[800px] w-[530px] border-2 border-black rounded-xl gap-4 p-5`}>
+    <div className={`flex flex-col justify-center items-center min-h-[800px] w-[530px] border-2 border-black rounded-xl gap-4 p-5 bg-gray-100`}>
       <Photo />
 
       <div className="flex flex-col justify-center items-center gap-2 mb-2 mt-2">
         <Text class={"text-black text-xl font-bold"} text={"Vitor Greff"}></Text>
         <Text class={"text-indigo-700 text-xl font-bold"} text={"Brazil"}></Text>
-        <Text class={"text-black text-base font-thin"} text={'"Abstraction Engineer"'}></Text>
+        <Text class={"text-black text-lg font-thin"} text={'"Abstraction Engineer"'}></Text>
       </div>
-
 
       <LinkButton content="Github" url="https://github.com/VitorGreff"></LinkButton>
       <LinkButton content="Linkedin" url="https://www.linkedin.com/in/greff/"></LinkButton>
