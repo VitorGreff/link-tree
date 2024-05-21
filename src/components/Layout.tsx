@@ -9,7 +9,6 @@ export default function Layout() {
 
   return (
     <div className={`flex flex-col justify-center items-center min-w-[490px] border-2 dark:bg-gray-800 border-gray-500 dark:border-black rounded-xl gap-4 p-10 bg-gray-100`}>
-
       <ThemeButton theme={theme} changeTheme={changeTheme} />
       <Photo />
 
