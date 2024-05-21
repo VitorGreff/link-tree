@@ -1,4 +1,3 @@
-import { useState } from "react";
 import LinkButton from "./LinkButton";
 import Photo from "./Photo";
 import Text from "./Text";

@@ -3,8 +3,8 @@ import { DarkIcon, LightIcon } from "./icons"
 type Theme = 'dark' | 'light'
 
 interface IconProps {
-  theme: Theme
-  changeTheme: () => void
+  theme?: Theme
+  changeTheme?: () => void
 }
 
 export default function ThemeButton(props: IconProps) {
