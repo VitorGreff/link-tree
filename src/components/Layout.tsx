@@ -15,7 +15,7 @@ export default function Layout() {
       <div className={`flex flex-col justify-center items-center gap-2 mb-2 mt-2`}>
         <Text class={`text-black dark:text-white text-xl font-bold`} text={"Vitor Greff"}></Text>
         <Text class={`text-indigo-700 dark:text-lime-400 text-xl font-bold`} text={"Brazil"}></Text>
-        <Text class={`text-black dark:text-white text-lg font-thin`} text={'"Abstraction Engineer"'}></Text>
+        <Text class={`text-black dark:text-white text-lg font-normal`} text={'"Abstraction Engineer"'}></Text>
       </div>
 
       <div className="flex flex-col gap-4 w-full sm:w-auto">
