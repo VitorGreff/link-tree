@@ -20,10 +20,10 @@ export default function Layout() {
 
       <div className="flex flex-col gap-4 w-full sm:w-auto">
         <LinkButton content="Github" url="https://github.com/VitorGreff"></LinkButton>
+        <LinkButton content="Resume" url="./curriculo.pdf"></LinkButton>
         <LinkButton content="Linkedin" url="https://www.linkedin.com/in/greff/"></LinkButton>
         <LinkButton content="GoodReads" url="https://www.goodreads.com/user/show/149662263-vitor-greff"></LinkButton>
         <LinkButton content="Spotify" url="https://open.spotify.com/user/j2mp8h8ym4vippy5a5ep96ig3"></LinkButton>
-        <LinkButton content="Resume" url="https://greftree.vercel.app/curriculo.pdf"></LinkButton>
       </div>
     </div>
   )
