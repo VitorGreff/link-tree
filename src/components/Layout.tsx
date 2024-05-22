@@ -8,7 +8,7 @@ export default function Layout() {
   const { theme, changeTheme } = useAppData()
 
   return (
-    <div className={`flex flex-col justify-center items-center border-2 dark:bg-gray-800 border-gray-500 dark:border-black rounded-xl gap-4 p-10 bg-gray-100`}>
+    <div className={`flex flex-col justify-center items-center sm:border-2 dark:sm:bg-gray-800 border-gray-500 dark:border-black rounded-xl gap-4 p-10 sm:bg-gray-100`}>
       <ThemeButton theme={theme} changeTheme={changeTheme} />
       <Photo />
 
