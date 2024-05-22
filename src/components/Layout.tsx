@@ -8,7 +8,7 @@ export default function Layout() {
   const { theme, changeTheme } = useAppData()
 
   return (
-    <div className={`flex flex-col justify-center items-center min-w-[490px] border-2 dark:bg-gray-800 border-gray-500 dark:border-black rounded-xl gap-4 p-10 bg-gray-100`}>
+    <div className={`flex flex-col justify-center items-center border-2 dark:bg-gray-800 border-gray-500 dark:border-black rounded-xl gap-4 p-10 bg-gray-100`}>
       <ThemeButton theme={theme} changeTheme={changeTheme} />
       <Photo />
 
@@ -18,11 +18,13 @@ export default function Layout() {
         <Text class={`text-black dark:text-white text-lg font-thin`} text={'"Abstraction Engineer"'}></Text>
       </div>
 
-      <LinkButton content="Github" url="https://github.com/VitorGreff"></LinkButton>
-      <LinkButton content="Linkedin" url="https://www.linkedin.com/in/greff/"></LinkButton>
-      <LinkButton content="GoodReads" url="https://www.goodreads.com/user/show/149662263-vitor-greff"></LinkButton>
-      <LinkButton content="Spotify" url="https://open.spotify.com/user/j2mp8h8ym4vippy5a5ep96ig3"></LinkButton>
-      <LinkButton content="Resume" url="https://greftree.vercel.app/curriculo.pdf"></LinkButton>
+      <div className="flex flex-col gap-4 w-full sm:w-auto">
+        <LinkButton content="Github" url="https://github.com/VitorGreff"></LinkButton>
+        <LinkButton content="Linkedin" url="https://www.linkedin.com/in/greff/"></LinkButton>
+        <LinkButton content="GoodReads" url="https://www.goodreads.com/user/show/149662263-vitor-greff"></LinkButton>
+        <LinkButton content="Spotify" url="https://open.spotify.com/user/j2mp8h8ym4vippy5a5ep96ig3"></LinkButton>
+        <LinkButton content="Resume" url="https://greftree.vercel.app/curriculo.pdf"></LinkButton>
+      </div>
     </div>
   )
 }
